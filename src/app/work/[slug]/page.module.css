@@ -1,0 +1,126 @@
+.back {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  display: inline-block;
+  margin-bottom: 2.5rem;
+}
+
+.back:hover {
+  color: var(--accent);
+}
+
+.tag {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 1rem;
+}
+
+.title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 2.75rem;
+  line-height: 1.05;
+  margin: 0 0 1rem;
+}
+
+.summary {
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+  max-width: 56ch;
+  margin: 0 0 1.75rem;
+}
+
+.meta {
+  display: flex;
+  gap: 2rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 2.5rem;
+}
+
+.metaItem span {
+  display: block;
+}
+
+.metaLabel {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 0.35rem;
+}
+
+.metaValue {
+  font-size: 0.95rem;
+}
+
+.body {
+  max-width: 62ch;
+  font-size: 1.02rem;
+  color: var(--ink);
+}
+
+.body p {
+  margin: 0 0 1.25rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  max-width: 62ch;
+  margin: 2rem 0 2.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.statValue {
+  font-family: var(--serif);
+  font-size: 1.8rem;
+  display: block;
+}
+
+.statLabel {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.cta {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid var(--ink);
+  padding: 0.75rem 1.25rem;
+}
+
+.cta:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+@media (max-width: 860px) {
+  .title {
+    font-size: 2rem;
+  }
+  .meta {
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

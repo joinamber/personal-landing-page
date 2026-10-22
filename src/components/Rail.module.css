@@ -1,0 +1,124 @@
+.rail {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100vh;
+  padding: 3rem 2.25rem 2rem 0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--rule);
+}
+
+.mark {
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.75rem;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.name {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.05;
+  margin: 0 0 0.6rem;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  display: block;
+}
+
+.tagline {
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+  margin: 0 0 2rem;
+  max-width: 32ch;
+}
+
+.nav {
+  margin-bottom: 2rem;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.navLink {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink-soft);
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.navLink:hover {
+  color: var(--accent);
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--ink-faint);
+  display: inline-block;
+}
+
+.navLink:hover .dot {
+  background: var(--accent);
+}
+
+.bio {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  max-width: 33ch;
+}
+
+.bio p {
+  margin: 0 0 0.9rem;
+}
+
+.contact {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.contactLink {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: var(--ink-faint);
+}
+
+.contactLink:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 860px) {
+  .rail {
+    position: relative;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--rule);
+    padding: 2rem 1.5rem;
+  }
+}
