@@ -11,7 +11,7 @@ export default function Rail() {
         Amber&nbsp;Liang
       </Link>
       <p className={styles.tagline}>
-        I&rsquo;m building AI-native platform for enterprises — and I love a
+        I&rsquo;m building Wildcard Research, a frontier studio — and I love a
         good challenge.
       </p>
 
@@ -58,8 +58,11 @@ export default function Rail() {
       </div>
 
       <div className={styles.contact}>
-        <a className={styles.contactLink} href="mailto:amber@adptv.xyz">
-          amber@adptv.xyz
+        <a
+          className={styles.contactLink}
+          href="mailto:amber@wildcardresearch.com"
+        >
+          amber@wildcardresearch.com
         </a>
         <a
           className={styles.contactLink}
@@ -75,7 +78,7 @@ export default function Rail() {
         </a>
         <a
           className={styles.contactLink}
-          href="https://x.com/gocreativeacts"
+          href="https://x.com/wildresearch"
         >
           X
         </a>

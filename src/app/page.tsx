@@ -107,12 +107,8 @@ export default function Home() {
             before engineering problems.
           </p>
           <p>
-            Away from the more visible work, I&rsquo;ve spent the past 15
-            years volunteering in career development, education, social
-            empowerment, and elderly care. Most of it stays offstage and has
-            probably shaped how I think about technology more than anything
-            else: progress matters most when it translates into something
-            meaningful for the people it&rsquo;s meant to serve.
+            Away from the more visible work, I volunteer in career
+            development, education, social empowerment, and elderly care.
           </p>
         </div>
       </section>

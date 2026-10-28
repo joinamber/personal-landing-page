@@ -15,17 +15,21 @@ export type WorkItem = {
 
 export const work: WorkItem[] = [
   {
-    slug: "adaptive-intelligence",
-    title: "Adaptive Intelligence",
-    tag: "Enterprise AI",
-    oneLiner: "Built for the adaptive enterprise.",
-    url: "https://www.adptv.xyz/",
+    slug: "wildcard-research",
+    title: "Wildcard Research",
+    tag: "Frontier Studio",
+    oneLiner: "The method does not exist yet. That is the job.",
+    url: "https://www.wildcardresearch.com/",
+    siteLabel: "wildcardresearch.com",
     role: "Founder",
     summary:
-      "Advancing the frontier of enterprise intelligence through rigorous research and engineering.",
+      "A frontier studio that deploys into the operation, works the constraints that are actually there, and builds a new class of thing where the old class ran out.",
     body: [
-      "Legacy ERP systems assume that data flows, user behavior, and organizational structure are fixed. Adaptive Intelligence starts from the opposite assumption: that enterprise software should keep learning from the organization it runs on.",
-      "The work draws on three research areas — large language models for contextual understanding of business processes, multi-agent systems for distributed decision-making, and causal inference for counterfactual and intervention planning — applied first to banking, finance, and e-commerce operations. Early focus areas include automated reconciliation and faster financial close, dynamic cash-flow forecasting, and continuous regulatory compliance monitoring.",
+      "Most work stops one rung short. A tool does one task faster; a system runs a process end to end. Wildcard Research aims at the third rung: a new class of thing that had no category before it was built, which other people can then build on top of.",
+      "The studio works forward-deployed, on site, inside the operation, next to the people doing the job. Every deployment runs the same four steps: land, probe, build, hand over. It isn't finished until it runs without us.",
+      "Selected work includes an agentic copilot for relationship managers at a leading ASEAN banking group, shipped through risk and compliance; workforce AI adoption at a YC-backed payments company; and an agentic pricing engine for a major East Asian marketplace's market entry. Client names are withheld by preference.",
+      "HyperPersona is the studio's own agent, generating synthetic behavioural data for targeting and segment design — a new input class rather than a faster version of an old one.",
+      "The name carries two readings: the outcome left out of the model because it looked unlikely, and the character that matches whatever is actually there. Frontier work means committing before the shape is known.",
     ],
   },
   {
@@ -41,7 +45,7 @@ export const work: WorkItem[] = [
       "Creative Acts builds solutions at the intersection of innovation and design — the forward-deployed mindset that pushes the boundaries of what's possible.",
     body: [
       "Creative Acts is the studio through which I incubate and ship AI-native products. Every initiative runs through the same three-part process: discovery (mapping human needs and technology shifts), design (rapid, hands-on prototyping, iterating in public), and launch (shipping as a forward-deployed, embedded team).",
-      "Current initiatives under the studio span behavioral AI (HyperPersona — building user personas for DTC brands and startups to run personalized campaigns), media (The Contrarian Economist, a podcast on overlooked economic data), agentic commerce (authentication and catalog infrastructure for AI agents transacting on a business's behalf), and education (VibeCraft, a cohort-based learning program, and Day of AI Singapore, run with MIT RAISE and i2 Learning).",
+      "Current initiatives under the studio span media (The Contrarian Economist, a podcast on overlooked economic data), agentic commerce (authentication and catalog infrastructure for AI agents transacting on a business's behalf), and education (VibeCraft, a cohort-based learning program, and Day of AI Singapore, run with MIT RAISE and i2 Learning).",
       "The through-line across all of them: treating AI adoption as a design problem first and an engineering problem second.",
     ],
   },
