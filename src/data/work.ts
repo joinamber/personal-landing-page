@@ -27,9 +27,6 @@ export const work: WorkItem[] = [
     body: [
       "Most work stops one rung short. A tool does one task faster; a system runs a process end to end. Wildcard Research aims at the third rung: a new class of thing that had no category before it was built, which other people can then build on top of.",
       "The studio works forward-deployed, on site, inside the operation, next to the people doing the job. Every deployment runs the same four steps: land, probe, build, hand over. It isn't finished until it runs without us.",
-      "Selected work includes an agentic copilot for relationship managers at a leading ASEAN banking group, shipped through risk and compliance; workforce AI adoption at a YC-backed payments company; and an agentic pricing engine for a major East Asian marketplace's market entry. Client names are withheld by preference.",
-      "HyperPersona is the studio's own agent, generating synthetic behavioural data for targeting and segment design — a new input class rather than a faster version of an old one.",
-      "The name carries two readings: the outcome left out of the model because it looked unlikely, and the character that matches whatever is actually there. Frontier work means committing before the shape is known.",
     ],
   },
   {
